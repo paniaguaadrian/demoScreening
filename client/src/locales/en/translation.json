@@ -1,0 +1,150 @@
+{
+  "nextStepButton": "Next Step",
+  "prevStepButton": "Previous Step",
+  "submitButton": "Send",
+  "authorize": "Send data",
+  "Home": {
+    "header": "'Agency' & Rimbo - The new way of renting",
+    "title": "Welcome to the union between 'Agency' and Rimbo",
+    "subtitle": "Enjoy the new way of renting",
+    "text": "In case you have any questions, please get in touch with us"
+  },
+  "F1SC": {
+    "helmet": "New tenancy - 'Agency' & Rimbo - The new way of rent",
+    "header": {
+      "title": "List your tenant",
+      "subtitleOne": "Fill out the fields.",
+      "subtitleTwo": "The tenant will receive an email to register the debit card",
+      "subtitleThree": "Receive a response via email."
+    },
+    "setDemo": {
+      "hello": "Hello there 🙋🏼‍♂️",
+      "subtitleOne": "Fill these fields to help our flow work for you",
+      "subtitleTwo": "We will send our email notifications on this email address",
+      "agencyName": "Agency Name",
+      "agencyNamePL": "Write the name of the Agency",
+      "agencyEmail": "Agency Email",
+      "agencyEmailPL": "Write the Agency email"
+    },
+    "stepZero": {
+      "renalAddress": "Rental Address",
+      "renalAddressPL": "Write the rental address",
+      "room": "Apartment/Room",
+      "roomPL": "Write the apartment/room number",
+      "rentAmount": "Monthly rent (in €)",
+      "rentAmountPL": "Enter rent",
+      "rentStartDate": "Rent start Date",
+      "rentEndDate": "Rent end Date",
+      "pp1": " By submitting this form, you understand and accept that we use your information in accordance with our",
+      "pp2": "privacy policy",
+      "pp3": "and",
+      "pp4": "cookies policy",
+      "linkPrivacy": "https://rimbo.rent/en/privacy-policy/",
+      "linkCookies": "https://rimbo.rent/en/cookies-policy/"
+    },
+    "stepOne": {
+      "tenantName": "Tenant's full name",
+      "tenantEmail": "Tenant's email",
+      "tenantPhone": "Tenant's phone number",
+      "tenantNamePL": "Enter the name and surname",
+      "tenantEmailPL": "Enter the email address",
+      "tenantPhonePL": "Enter the phone number"
+    },
+    "stepTwo": {
+      "service": "Choose service",
+      "servicePL": "Select a 'Agency' service",
+      "rentDuration": "Duration rental agreement (years)",
+      "rentDurationPL": "Enter duration",
+      "completeRentalAddress": "Address of the property",
+      "completeRentalAddressPL": "Enter complete address",
+      "rentalAddress": "Address of the property",
+      "rentalAddressPL": "Enter address",
+      "rentalAddressSecond": "Property details",
+      "rentalAddressSecondPL": "Floor, door, number...",
+      "rentalCity": "City",
+      "rentalCityPL": "Enter the city name",
+      "rentalPostalCode": "Postal code",
+      "rentalPostalCodePL": "XXXXX"
+    },
+    "stepThree": {
+      "monthlyNetIncome": "Monthly net income",
+      "monthlyNetIncomePL": "Write the income",
+      "jobType": "Job Type",
+      "jobTypePL": "Select the job type",
+      "jobTypeOne": "Employment Contract",
+      "jobTypeTwo": "Freelancer",
+      "jobTypeThree": "Unemployed",
+      "jobTypeFour": "I am a company",
+      "jobTypeFive": "I am retired",
+      "jobTypeSix": "I am a student",
+      "jobTypeSeven": "Other",
+      "tenantsAddress": "Current Address",
+      "tenantsAddressPL": "Write the address where the tenant reside",
+      "tenantsZipCode": "Current zip code",
+      "tenantsZipCodePL": "XXXXX",
+      "documentType": "Document Type",
+      "documentTypePL": "Select Document Type",
+      "documentTypeOne": "DNI",
+      "documentTypeTwo": "NIE",
+      "documentTypeThree": "Passport",
+      "documentTypeFour": "Other",
+      "documentNumber": "Document Number",
+      "documentNumberPL": "Write the document number",
+      "DF": "DNI/NIE/Passport (Front)",
+      "DB": "DNI/NIE/Passport (Back)",
+      "LP": "Last salary payslip",
+      "PP": "Previous salary payslip",
+      "checkboxOne": "By submitting this form, you understand and agree that we use your information in accordance with our",
+      "checkboxTwo": "privacy policy",
+      "checkboxThree": "and our",
+      "checkboxFour": "cookies policy",
+      "checkboxFive": "to offer you Rimbo services.",
+      "completedTitle": "The form has been completed successfully",
+      "completedSubtitle": "All data has been successfully completed",
+      "completeSubtextOne": "Thanks for your time. ",
+      "completeSubtextTwo": "The tenant will receive an email shortly to complete the process.",
+      "completeRegards": "Best regards"
+    },
+    "completed": {
+      "title": "Awesome, we have received your details! ",
+      "subtitle": "We will get in touch with you shortly to complete the process."
+    }
+  },
+  "approvedRimbo": {
+    "header": "Tenant approved by Rimbo",
+    "title": "Awesome, you just accepted the new tenant",
+    "subtitle": "We will send an email to the tenant to register the debit card with us"
+  },
+  "F2TT": {
+    "header": "New tenant - 'Agency' & Rimbo - The new way of rent",
+    "titleOne": "Rent this property ",
+    "titleTwo": "deposit-free",
+    "leftTextOne": "We are excited about your upcoming move with ",
+    "leftTextOnePartTwo": " and we want to make it as easy and cost-effective for you as possible!",
+    "leftTextTwo": "For this reason our properties are deposit-free",
+    "leftTextThree": "No need to pay any deposit upfront. Just register with your debit card details.",
+    "name": "Full name: ",
+    "email": "Email: ",
+    "phone": "Phone: ",
+    "creditCard": "Debit card details",
+    "subcreditcard": "Remember, you must list the account where you receive your income",
+    "warningcreditcard": " * Authorization only, limited to the amount of 1 month of rent",
+    "checkBoxOne": "By sending the information above you confirm you have read and accept the",
+    "checkBoxTwo": "Terms and Conditions",
+    "checkBoxThree": "Privacy Policy",
+    "checkBoxFour": "Cookie Policy",
+    "checkBoxFive": "of Rimbo Rent"
+  },
+  "cardsuccess": {
+    "title": "You are now part of ",
+    "textOne": "Awesome, we have received your details!",
+    "textTwo": "We will get in touch with you shortly to complete the process."
+  },
+  "404Page": {
+    "header": "404 error page - 'Agency' & Rimbo",
+    "title": "Error 404 - The page you are looking for doesn't exist 😔",
+    "subtitle": "Please, reload the latest link you have received, or get in touch with us:",
+    "paragraphEmail": "info@rimbo.rent",
+    "paragraphPhone": "+34 623 063 769"
+  }
+}

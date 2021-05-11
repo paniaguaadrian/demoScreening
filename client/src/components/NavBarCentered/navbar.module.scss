@@ -1,0 +1,97 @@
+@import "../../styles/variables";
+@import "../../styles/_breakpoint";
+
+.NavBarContainer {
+  margin: 3rem auto;
+  padding-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+
+  @include xl {
+    margin: 3rem auto;
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+  }
+
+  h3 {
+    margin-left: 1rem;
+  }
+
+  .LogoContainer {
+    flex: 0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    @include xl {
+      flex: 0 1 auto;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .LogoImage {
+    height: 5rem;
+    @include xl {
+      height: 3rem;
+    }
+  }
+
+  .ToggleButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex: 0 1 auto;
+    margin-left: auto;
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+    @include xl {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      padding-right: 2rem;
+      flex: 0 1 auto;
+      margin-left: auto;
+      margin-top: 0;
+    }
+  }
+
+  .ToggleLanguageButton {
+    background: none !important;
+    border: none;
+    background-color: none !important;
+    width: 3rem !important;
+    margin: 0 auto;
+    @include xl {
+      background: none !important;
+      border: none;
+      background-color: none !important;
+      width: 3rem !important;
+      margin: 0 auto;
+    }
+  }
+
+  .LanguageLogo {
+    margin: 0 0 !important;
+    height: 2.4rem !important;
+    @include xl {
+      margin: 0 0 !important;
+      height: 1.3rem !important;
+    }
+  }
+  .LanguageLogo:hover {
+    margin: 0 0 !important;
+    height: 2.2rem !important;
+    @include xl {
+      margin: 0 0 !important;
+      height: 1.4rem !important;
+    }
+  }
+}

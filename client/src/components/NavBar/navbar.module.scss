@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+@import "../../styles/_breakpoint";
+
+.NavBarContainer {
+  margin-top: 2.5rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @include xl {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h3 {
+    margin-left: 1rem;
+  }
+
+  .LogoImage {
+    height: 2.8rem !important;
+    margin-left: 2rem;
+    @include xl {
+      height: 2rem !important;
+      margin-left: 2rem;
+    }
+  }
+
+  .ToggleButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 2rem;
+  }
+
+  .ToggleLanguageButton {
+    background: none !important;
+    border: none;
+    background-color: none !important;
+    width: 3rem !important;
+    margin: 0 auto;
+  }
+
+  .LanguageLogo {
+    margin: 0 0 !important;
+    height: 2.5rem !important;
+    @include xl {
+      margin: 0 0 !important;
+      height: 1.3rem !important;
+    }
+  }
+  .LanguageLogo:hover {
+    margin: 0 0 !important;
+    height: 2.2rem !important;
+    @include xl {
+      margin: 0 0 !important;
+      height: 1.4rem !important;
+    }
+  }
+}

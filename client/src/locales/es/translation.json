@@ -1,0 +1,140 @@
+{
+  "nextStepButton": "Siguiente",
+  "prevStepButton": "Atrás",
+  "submitButton": "Enviar",
+  "authorize": "Enviar datos",
+  "Home": {
+    "header": "'Agencia' & Rimbo - The new way of renting",
+    "title": "Bienvenid@ a la unión entre 'Agencia' y Rimbo",
+    "subtitle": "Disfruta de la nueva forma de alquiler",
+    "text": "Cualquier duda que tengas, ponte en contacto con nosotros"
+  },
+  "F1SC": {
+    "helmet": "Nuevo alquiler - 'Agencia' & Rimbo - The new way of rent",
+    "header": {
+      "title": "Registra a tu inquilino",
+      "subtitleOne": "Completa los campos.",
+      "subtitleTwo": "El inquilino recibirá un email para registrar su tarjeta de débito",
+      "subtitleThree": "Recibirás una respuesta por correo electrónico."
+    },
+    "setDemo": {
+      "hello": "¡Muy buenas 🙋🏼‍♂️!",
+      "subtitleOne": "Completa estos campos para ayudar a nuestro flujo a funcionar para ti",
+      "subtitleTwo": "Enviaremos nuestras notificaciones a esta dirección de correo electrónico",
+      "agencyName": "Nombre de la agencia",
+      "agencyNamePL": "Escribe el nombre de la agencia",
+      "agencyEmail": "Correo electrónico de la agencia",
+      "agencyEmailPL": "Escribe el correo electrónico de la agencia"
+    },
+    "stepZero": {
+      "renalAddress": "Dirección del inmueble",
+      "renalAddressPL": "Escribe la dirección del inmuble",
+      "room": "Piso/Habitación",
+      "roomPL": "Escribe el número del piso/habitación",
+      "rentAmount": "Alquiler mensual (en €)",
+      "rentAmountPL": "Escribe el alquiler mensual",
+      "rentStartDate": "Fecha inicio del alquiler",
+      "rentEndDate": "Fecha fin del alquiler",
+      "pp1": " Al enviar este formulario, comprendes y aceptas que utilizamos tu información de acuerdo con nuestra",
+      "pp2": "política de privacidad",
+      "pp3": "y nuestra",
+      "pp4": "política de cookies",
+      "linkPrivacy": "https://rimbo.rent/politica-privacidad/",
+      "linkCookies": "https://rimbo.rent/politica-cookies/"
+    },
+    "stepOne": {
+      "tenantName": "Nombre completo del inquilino",
+      "tenantEmail": "Correo electrónico del inquilino",
+      "tenantPhone": "Número de teléfono del inquilino",
+      "tenantNamePL": "Escribe el nombre completo",
+      "tenantEmailPL": "Escribe el correo electrónico",
+      "tenantPhonePL": "Escribe el número de teléfono"
+    },
+    "stepTwo": {
+      "service": "Servicio escogido",
+      "servicePL": "Escoge un servicio",
+      "rentDuration": "Duración el contrato de alquiler (años)",
+      "rentDurationPL": "Escribe la duración",
+      "rentAmount": "Alquiler mensual (en €)",
+      "rentAmountPL": "Escribe el alquiler",
+      "completeRentalAddress": "Dirección del inmueble",
+      "completeRentalAddressPL": "Escribe la dirección completa del inmueble",
+      "rentalAddress": "Dirección del inmueble",
+      "rentalAddressPL": "Escribe la dirección",
+      "rentalAddressSecond": "Detalles de la dirección",
+      "rentalAddressSecondPL": "Piso, puerta, número...",
+      "rentalCity": "Población del inmueble",
+      "rentalCityPL": "Escribe la ciudad",
+      "rentalPostalCode": "Código postal del inmueble",
+      "rentalPostalCodePL": "XXXXX"
+    },
+    "stepThree": {
+      "monthlyNetIncome": "Ingresos netos mensuales",
+      "monthlyNetIncomePL": "Escribe los ingresos",
+      "jobType": "Tipo de empleo",
+      "jobTypePL": "Selecciona el tipo de empleo",
+      "jobTypeOne": "Asalariado",
+      "jobTypeTwo": "Autónomo",
+      "jobTypeThree": "Sin empleo",
+      "jobTypeFour": "Somos una empresa",
+      "jobTypeFive": "Estoy jubilado",
+      "jobTypeSix": "Soy estudiante",
+      "jobTypeSeven": "Otro",
+      "tenantsAddress": "Dirección actual",
+      "tenantsAddressPL": "Escribe la dirección actual del inquilino",
+      "tenantsZipCode": "Código postal actual",
+      "tenantsZipCodePL": "XXXXX",
+      "documentType": "Tipo de documento",
+      "documentTypePL": "Selecciona el tipo de documento",
+      "documentTypeOne": "DNI",
+      "documentTypeTwo": "NIE",
+      "documentTypeThree": "Pasaporte",
+      "documentTypeFour": "Other",
+      "documentNumber": "Número de documento",
+      "documentNumberPL": "Escribe el número del documento",
+      "DF": "DNI/NIE/Pasaporte (Frontal)",
+      "DB": "DNI/NIE/Pasaporte (Atrás)"
+    },
+    "completed": {
+      "header": "Tenant approved by Rimbo",
+      "title": "Genial, ¡hemos recibido tus detalles!",
+      "subtitle": "Nos pondremos en contacto contigo en breve para completar el proceso."
+    }
+  },
+  "approvedRimbo": {
+    "title": "Awesome, you just accepted the new tenant",
+    "subtitle": "We will send an email to the tenant to register the debit card with us"
+  },
+  "F2TT": {
+    "header": "Nuevo inquilino - 'Agencia' & Rimbo - The new way of rent",
+    "titleOne": "¡Alquila este apartamento ",
+    "titleTwo": "sin pagar fianza",
+    "leftTextOne": "Estamos muy ilusionados de que hayas decidido formar parte de ",
+    "leftTextOnePartTwo": " y somos conscientes de que para ti es muy importante mudarte de una manera fácil, ágil y asequible.",
+    "leftTextTwo": "Por esta razón nuestras propiedades no tienen fianza en efectivo.",
+    "leftTextThree": "Con nosotros no tienes que adelantar la fianza. Solo tienes que registrar tu tarjeta de débito.",
+    "name": "Nombre Completo: ",
+    "email": "Email: ",
+    "phone": "Teléfono: ",
+    "creditCard": "Datos tarjeta de débito",
+    "subcreditcard": "Recuerda: debes registrar la tarjeta de la cuenta en la que recibes tus ingresos",
+    "warningcreditcard": " * Solo preautorización, limitada por importe hasta 1 mes de alquiler",
+    "checkBoxOne": "Enviando tus datos confirmas que has leído y aceptas los",
+    "checkBoxTwo": "Términos y condiciones",
+    "checkBoxThree": "Política de Privacidad",
+    "checkBoxFour": "Política de Cookies",
+    "checkBoxFive": "de Rimbo Rent"
+  },
+  "cardsuccess": {
+    "title": "¡Ya eres parte de ",
+    "textOne": "Genial, ¡hemos recibido tus detalles!",
+    "textTwo": " Nos pondremos en contacto contigo en breve para completar el proceso."
+  },
+  "404Page": {
+    "header": "404 error page - 'Agencia' & Rimbo",
+    "title": "404 - La página a la que intentas acceder no existe 😔",
+    "subtitle": "Por favor vuelve a cargar el último enlace que has recibido o ponte en contacto con nosotros a:",
+    "paragraphEmail": "info@rimbo.rent",
+    "paragraphPhone": "+34 623 063 769"
+  }
+}
