@@ -240,7 +240,7 @@ const sendF2SCFormEmails = async (req, res) => {
     attachments: [
       {
         filename: "Reglas_Generales_y_Guia_Inquilino_Rimbo.pdf",
-        path: "./viewsEs/images/Reglas_Generales_y_Guia_Inquilino_Rimbo.pdf",
+        path: "./views/images/Reglas_Generales_y_Guia_Inquilino_Rimbo.pdf",
       },
     ],
     context: {
@@ -261,7 +261,7 @@ const sendF2SCFormEmails = async (req, res) => {
     attachments: [
       {
         filename: "Reglas_Generales_y_Guia_Propietario_RIMBO.pdf",
-        path: "./viewsEs/images/Reglas_Generales_y_Guia_Propietario_RIMBO.pdf",
+        path: "./views/images/Reglas_Generales_y_Guia_Propietario_RIMBO.pdf",
       },
     ],
     context: {
