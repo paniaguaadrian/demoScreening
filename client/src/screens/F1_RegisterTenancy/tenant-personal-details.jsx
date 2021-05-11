@@ -133,6 +133,7 @@ const TenantPersonalDetails = ({ step, setStep, tenancy, setTenancy, t }) => {
         rentAmount: data.rentAmount,
         rentStartDate: data.rentStartDate.slice(0, 10),
         rentEndDate: data.rentEndDate.slice(0, 10),
+        product: data.product,
         tenancyID: data.tenancyID,
         // Property
         rentalAddress: data.property.rentalAddress,
@@ -160,6 +161,7 @@ const TenantPersonalDetails = ({ step, setStep, tenancy, setTenancy, t }) => {
         rentAmount: data.rentAmount,
         rentStartDate: data.rentStartDate.slice(0, 10),
         rentEndDate: data.rentEndDate.slice(0, 10),
+        product: data.product,
         tenancyID: data.tenancyID,
         // Property
         rentalAddress: data.property.rentalAddress,
@@ -219,6 +221,7 @@ const TenantPersonalDetails = ({ step, setStep, tenancy, setTenancy, t }) => {
         rentAmount: tenancy.propertyDetails.rentAmount,
         rentStartDate: tenancy.propertyDetails.rentStartDate,
         rentEndDate: tenancy.propertyDetails.rentEndDate,
+        product: tenancy.propertyDetails.product,
         tenancyID: randomID,
         // Property
         rentalAddress: tenancy.propertyDetails.rentalAddress,

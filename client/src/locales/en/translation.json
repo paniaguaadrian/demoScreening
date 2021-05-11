@@ -35,6 +35,10 @@
       "rentAmountPL": "Enter rent",
       "rentStartDate": "Rent start Date",
       "rentEndDate": "Rent end Date",
+      "product": "Rimbo product",
+      "productPL": "Select a Rimbo product",
+      "productOne": "1 month",
+      "productTwo": "2 months",
       "pp1": " By submitting this form, you understand and accept that we use your information in accordance with our",
       "pp2": "privacy policy",
       "pp3": "and",
@@ -128,7 +132,8 @@
     "phone": "Phone: ",
     "creditCard": "Debit card details",
     "subcreditcard": "Remember, you must list the account where you receive your income",
-    "warningcreditcard": " * Authorization only, limited to the amount of 1 month of rent",
+    "warningcreditcard": " * Authorization only, limited to the amount of ",
+    "warningcreditcardTwo": " of rent",
     "checkBoxOne": "By sending the information above you confirm you have read and accept the",
     "checkBoxTwo": "Terms and Conditions",
     "checkBoxThree": "Privacy Policy",
@@ -139,6 +144,10 @@
     "title": "You are now part of ",
     "textOne": "Awesome, we have received your details!",
     "textTwo": "We will get in touch with you shortly to complete the process."
+  },
+  "cardsuccessTwo": {
+    "title": "Awesome, we have received your details!",
+    "textOne": "We will screen the tenant and you will receive the screening results via email shortly."
   },
   "404Page": {
     "header": "404 error page - 'Agency' & Rimbo",

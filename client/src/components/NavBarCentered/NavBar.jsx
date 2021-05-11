@@ -20,12 +20,7 @@ const NavBar = (props) => {
   return (
     <div className={styles.NavBarContainer}>
       <div className={styles.LogoContainer}>
-        <h3>{props.agencyNameLogo}</h3>
-        {/* <img
-          className={styles.LogoImage}
-          src={StarCityLogo}
-          alt="Starcity Logo"
-        /> */}
+        <h3 className={styles.LogoText}>{props.agencyNameLogo}</h3>
       </div>
 
       <div className={styles.ToggleButtonContainer}>

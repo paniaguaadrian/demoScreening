@@ -22,6 +22,7 @@
 
   h3 {
     margin-left: 1rem;
+    font-size: 2rem !important;
   }
 
   .LogoContainer {
@@ -36,6 +37,9 @@
       transform: translateX(-50%);
     }
   }
+  // .LogoText {
+  //   font-size: 3rem !important;
+  // }
 
   .LogoImage {
     height: 5rem;

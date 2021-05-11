@@ -35,6 +35,10 @@
       "rentAmountPL": "Escribe el alquiler mensual",
       "rentStartDate": "Fecha inicio del alquiler",
       "rentEndDate": "Fecha fin del alquiler",
+      "product": "Producto de rimbo",
+      "productPL": "Escoge un producto",
+      "productOne": "1 mes",
+      "productTwo": "2 meses",
       "pp1": " Al enviar este formulario, comprendes y aceptas que utilizamos tu información de acuerdo con nuestra",
       "pp2": "política de privacidad",
       "pp3": "y nuestra",
@@ -118,7 +122,8 @@
     "phone": "Teléfono: ",
     "creditCard": "Datos tarjeta de débito",
     "subcreditcard": "Recuerda: debes registrar la tarjeta de la cuenta en la que recibes tus ingresos",
-    "warningcreditcard": " * Solo preautorización, limitada por importe hasta 1 mes de alquiler",
+    "warningcreditcard": " * Solo preautorización, limitada por importe hasta ",
+    "warningcreditcardTwo": " de alquiler",
     "checkBoxOne": "Enviando tus datos confirmas que has leído y aceptas los",
     "checkBoxTwo": "Términos y condiciones",
     "checkBoxThree": "Política de Privacidad",
@@ -129,6 +134,10 @@
     "title": "¡Ya eres parte de ",
     "textOne": "Genial, ¡hemos recibido tus detalles!",
     "textTwo": " Nos pondremos en contacto contigo en breve para completar el proceso."
+  },
+  "cardsuccessTwo": {
+    "title": "Genial, ¡hemos recibido tus detalles!",
+    "textOne": "Vamos a evaluar al inquilino y recibirás el resultado de la evaluación por email en breve."
   },
   "404Page": {
     "header": "404 error page - 'Agencia' & Rimbo",

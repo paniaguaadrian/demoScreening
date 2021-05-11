@@ -153,23 +153,6 @@ img.g-img + div {
 	color: #fff;
 }
 
-.btn-rimbo{
-    background-color: #41c1bd;
-  color: white!important;
-  height: 1.9rem;
-  width: 8rem;
-  border: none;
-  border-radius: 14px;
-  cursor: pointer;
-  font-weight: 300;
-  font-size: 0.8rem;
-}
-
-.btn-rimbo a {
-	text-decoration: none;
-	color: white!important;
-}
-
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Poppins', sans-serif;
 	color: #000000;
@@ -229,7 +212,7 @@ a{
 }
 .hero .text h2{
 	color: #000;
-	font-size: 22px;
+	font-size: 20px;
 	margin-bottom: 0;
 	font-weight: 300;
 }
@@ -254,7 +237,7 @@ a{
 } */
 .heading-section h2{
 	color: #6aa3a1;
-	font-size: 22px;
+	font-size: 20px;
 	margin-top: 0;
 	line-height: 1.4;
 	font-weight: 400;
@@ -304,31 +287,8 @@ a{
 }
 
 .logo-image{
-	width: 8rem;
+	width: 5rem;
 }
-
-.btn-rimbo{
-    background-color: #41c1bd;
-  color: white!important;
-  height: 1.9rem;
-  width: 8rem;
-  border: none;
-  border-radius: 14px;
-  cursor: pointer;
-  font-weight: 300;
-  font-size: 0.8rem;
-}
-
-.btn-rimbo a { 
-text-decoration: none;
-	color: white!important;
-}
-
-.multilanguage_header{
-	margin-top: 3rem;
-}
-
-
 
 /*PROJECT*/
 .text-project{
@@ -389,208 +349,45 @@ text-decoration: none;
           	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
           		<tr>
           			<td class="logo" style="text-align: center;">
-			            <h2>{{agencyName}}</h2>
+			            <img class='logo-image' src="cid:rimbologo"><a href="https://rimbo.rent/"></a></img>
 			          </td>
           		</tr>
           	</table>
           </td>
 	      </tr><!-- end tr -->
-
-		  <tr>
-			  <td valign="middle" class="hero hero-2 bg_white" style="padding: 1em 0; text-align: left;">
-            <table  role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-            	<tr>
-            		<td class="bg_white email-section">
-						<div class="heading-section" style="text-align: left; padding: 0 30px;">
-						<p style="text-align: left; font-size: 12px; color: black;">English text at the end of the email</p>
-						</div>
-            			
-            		</td>
-            	</tr>
-            </table>
-          </td>
-		  </tr>
-
-		<tr>
+				<tr>
           <td valign="middle" class="hero hero-2 bg_white" style="padding: 1em 0;">
             <table>
             	<tr>
             		<td>
-            			<div class="text" style="padding: 0 3em; text-align: left;">
-							<h3>¡Buenas noticias {{tenantsName}}!</h3>			
-            				
+            			<div class="text" style="padding: 0 3em; text-align: center;">
+							<h3>Hello {{agencyName}},</h3>				
+            				<h3>Attached to the email you will find the results of the screening of the tenant<b> {{tenantsName}}.</b></h3>
             			</div>
             		</td>
             	</tr>
             </table>
+			<table>
+					<tr>
+						<td>
+							<div class="text" style="padding: 1em 3em; text-align: left;">
+								<h3>Thanks for your time,</h3>	
+							</div>
+						</td>
+					</tr>
+				</table>
           </td>
 	      </tr><!-- end tr -->
-
-
-	      <tr>
-		      <td class="bg_white">
-		        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: left; padding: 0 30px;">
-		              	<h3>Estamos muy contentos de que te quieras unir a nosotros en <b>{{rentalAddress}}.</b></h3>
-
-		            	</div>
-		          </tr><!-- end: tr -->
-					<td valign="middle" class="hero hero-2 bg_white" style="padding: 1em 0;">
-
-           			 <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: left; padding: 0 30px; color: #6aa3a1;">
-		              	<h3><u>Solo falta un paso importante:</u></h3>
-						 
-		              	
-		            	</div>
-		          </tr><!-- end: tr -->
-					
-				</table>
-
-			
-
-
-            <table>
-					<tr>
-						<td>
-							<div class="text" style="padding: 1em 3em; text-align: left;">
-								
-								<h3>En {{agencyName}} creemos que no es necesario pagar por algo que todavía no ha ocurrido. <b>Es por eso que nuestras habitaciones no tienen depósito en efectivo.</b></h3>
-								<br>
-								<h3>Sigues siendo responsable de cuidar la habitación y pagar tu alquiler a tiempo. Pero como en {{agencyName}} confiamos en nuestros inquilinos, no cobramos la fianza por adelantado, solo en caso de que algo ocurra.</h3>
-								<br>
-								<h3>Regístrate con tu tarjeta de débito pulsando el link al final del mail. La tarjeta debe estar conectada con tu cuenta principal (donde tienes tus ingresos o ahorros).</h3>
-								
-							</div>
-						</td>
-					</tr>
-			</table>
-
-			<table>
-					<tr>
-						<td>
-							<div class="text" style="padding: 1em 3em; text-align: left;">
-								
-								<h3>¡Bienvenido a la revolución de los depósitos!</h3>
-								
-							</div>
-						</td>
-					</tr>
-			</table>
-
-			 <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0px 30px; color: #6aa3a1;">
-
-		              	{{!-- <button class='btn-rimbo' type="button"><a href="http://localhost:3000/register/card/{{randomID}}">¡Empieza ahora!(D)</a></button> --}}
-
-						<button class='btn-rimbo' type="button"><a href="https://demoscreeningfront-dot-rimbo-demo.oa.r.appspot.com/register/card/{{randomID}}">¡Empieza ahora!</a></button>
-						  
-		          </tr><!-- end: tr -->
-					
-			</table>
-
-
-			<table>
-            	<tr>
-            		<td>
-            			<div class="text" style="padding: 0 3em; text-align: left;">
-							<hr style="width: 15rem; color: red; height: 0px; border-color: #6aa3a1; border-radius: 5rem; margin-top: 2rem;">			
-            			</div>
-            		</td>
-            	</tr>
-            </table>
-
-			
-            <table>
-            	<tr>
-            		<td>
-            			<div class="text" style="padding: 0 3em; text-align: left;">
-							<h3 class="multilanguage_header">Great news, {{tenantsName}}!</h3>			
-            				
-            			</div>
-            		</td>
-            	</tr>
-            </table>
-        
-	      
-	      
-		        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: left; padding: 0 30px;">
-		              	<h3>We are very excited that you want to join us in <b>{{rentalAddress}}.</b></h3>
-
-		            	</div>
-		          </tr><!-- end: tr -->
-					<td valign="middle" class="hero hero-2 bg_white" style="padding: 1em 0;">
-
-            		<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          	<tr>
-		            	<td class="bg_white email-section">
-		            		<div class="heading-section" style="text-align: left; padding: 0 30px; color: #6aa3a1;">
-		              		<h3><u>There is only one important step left:</u></h3>
-						 	</div>
-		          	</tr><!-- end: tr -->
-					</table>
-				</table>
-
-            <table>
-					<tr>
-						<td>
-							<div class="text" style="padding: 1em 3em; text-align: left;">
-								
-								<h3>At {{agencyName}} we believe you shouldn’t pay for something that hasn’t happened yet. This is why our rooms are deposit-free.</h3>
-								<br>
-								<h3>Just as always, you are responsible for taking care of the room and paying your rent on time. But since we at {{agencyName}} trust our tenants, we won’t ask you to pay any deposit upfront, only in case something happens.</h3>
-								<br>
-								<h3>Register by clicking on the following link and entering your debit card details. The card must be connected to your main bank account (where you keep your savings and monthly income).</h3>
-								
-							</div>
-						</td>
-					</tr>
-			</table>
-
-			<table>
-					<tr>
-						<td>
-							<div class="text" style="padding: 1em 3em; text-align: left;">
-								
-								<h3>Welcome to the deposit revolution!</h3>
-								
-							</div>
-						</td>
-					</tr>
-			</table>
-
-			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0px 30px; color: #6aa3a1;">
-
-		              	{{!-- <button class='btn-rimbo' type="button"><a href="http://localhost:3000/register/card/{{randomID}}">Start now!(D)</a></button> --}}
-
-						<button class='btn-rimbo' type="button"><a href="https://demoscreeningfront-dot-rimbo-demo.oa.r.appspot.com/register/card/{{randomID}}">Start now!</a></button>
-
-						  
-		          </tr><!-- end: tr -->
-					
-			</table>
 
 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 		          <tr>
 		            <td class="bg_white email-section">
 		            	<div class="heading-section" style="text-align: left; padding: 0px 30px; color: #6aa3a1;">
 		              	
-						<h3>Equipo de Soporte,</h3>
-		              	<h4>Móvil -  WhatsApp: +34 623 063 769<br/>
+						<h3>Support Team,</h3>
+		              	<h4>Phone - WhatsApp: +34 623 063 769<br/>
       					E-Mail: info@rimbo.com<br/>
-      					Web: <a href="http://www.rimbo.rent">rimbo.rent</a>
+      					Web site: <a href="http://www.rimbo.rent">rimbo.rent</a>
       					</h4>
 		            	</div>
 		          </tr><!-- end: tr -->
@@ -628,7 +425,7 @@ text-decoration: none;
                       	<h3 class="heading">Useful Links</h3>
                       	<ul>
 					                <li><a href="http://www.rimbo.rent">Rimbo Rent</a></li>
-					                <li><a href="http://www.rimbo.rent">{{agencyName}}</a></li>
+					                
 					                
 					              </ul>
                       </td>

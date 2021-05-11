@@ -175,7 +175,7 @@ const PropertyDetails = ({ step, setStep, tenancy, setTenancy, t }) => {
             />
           </div>
         </div>
-        <div className={styles.GroupInputAlone}>
+        <div className={styles.GroupInput}>
           <div className={styles.FormLeft}>
             <Input
               type="text"
@@ -186,6 +186,32 @@ const PropertyDetails = ({ step, setStep, tenancy, setTenancy, t }) => {
               onChange={(e) => handleProperty(e)}
               error={errors.rentAmount}
             />
+          </div>
+          <div className={styles.FormLeft}>
+            <div className={styles.selectContainer}>
+              <label className={styles.selectLabel} htmlFor="product">
+                {t("F1SC.stepZero.product")}
+              </label>
+              <select
+                required
+                name="product"
+                className={styles.selectInput}
+                value={tenancy.propertyDetails.product}
+                onChange={(e) => handleProperty(e)}
+              >
+                <option name="product" value={t("F1SC.stepZero.productPL")}>
+                  {t("F1SC.stepZero.productPL")}
+                </option>
+
+                <option name="product" value={t("F1SC.stepZero.productOne")}>
+                  {t("F1SC.stepZero.productOne")}
+                </option>
+
+                <option name="product" value={t("F1SC.stepZero.productTwo")}>
+                  {t("F1SC.stepZero.productTwo")}
+                </option>
+              </select>
+            </div>
           </div>
         </div>
       </div>

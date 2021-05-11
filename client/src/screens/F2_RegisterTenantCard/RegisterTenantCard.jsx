@@ -291,12 +291,15 @@ const RegisterTenantCard = ({ t }) => {
                           onChange={handleCardDetailsChange}
                           className={style.tarjeta}
                         />
-                        <p>{t("F2TT.warningcreditcard")}</p>
-                      </label>
 
-                      <div className={style.ErrorInput}>
                         <p className="error-message">{checkoutError}</p>
-                      </div>
+
+                        <p>
+                          {t("F2TT.warningcreditcard")}
+                          {tenancyData.product}
+                          {t("F2TT.warningcreditcardTwo")}
+                        </p>
+                      </label>
 
                       <div className={style.TermsContainerStripe}>
                         <input

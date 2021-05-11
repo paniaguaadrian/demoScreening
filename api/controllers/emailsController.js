@@ -24,6 +24,7 @@ const sendF1SCFormEmails = async (req, res) => {
     rentAmount,
     rentStartDate,
     rentEndDate,
+    product,
     tenancyID,
     rentalAddress,
     room,
@@ -38,6 +39,14 @@ const sendF1SCFormEmails = async (req, res) => {
   );
 
   const transporterE1SC = nodemailer.createTransport(
+    sgTransport({
+      auth: {
+        api_key: process.env.SENDGRID_API,
+      },
+    })
+  );
+
+  const transporterRJ115 = nodemailer.createTransport(
     sgTransport({
       auth: {
         api_key: process.env.SENDGRID_API,
@@ -62,9 +71,18 @@ const sendF1SCFormEmails = async (req, res) => {
     },
     viewPath: "views/",
   };
+  let optionsRJ115 = {
+    viewEngine: {
+      extname: ".handlebars",
+      layoutsDir: "views/",
+      defaultLayout: "rj115Email",
+    },
+    viewPath: "views/",
+  };
 
   transporterE2TT.use("compile", hbs(optionsE2TT));
   transporterE1SC.use("compile", hbs(optionsE1SC));
+  transporterRJ115.use("compile", hbs(optionsRJ115));
 
   const TenantEmail = {
     from: "Rimbo info@rimbo.rent",
@@ -107,9 +125,35 @@ const sendF1SCFormEmails = async (req, res) => {
       rentAmount,
       rentStartDate,
       rentEndDate,
+      product,
       tenancyID,
       rentalAddress,
       room,
+    },
+  };
+
+  // RJ115 Email  @PM/Agency to see screening result
+  const pmEmailTwo = {
+    from: "Rimbo info@rimbo.rent",
+    to: agencyEmailPerson, // pm's email
+    subject: `Screening results for tenant ${tenantsName}`,
+    attachments: [
+      {
+        filename: "rimbo-logo.png",
+        path: "./views/images/rimbo-logo.png",
+        cid: "rimbologo",
+      },
+      {
+        filename: "Screening_Certificate_Template_ES.pdf",
+        path: "./views/images/Screening_Certificate_Template_ES.pdf",
+      },
+    ],
+    template: "rj115Email",
+    context: {
+      agencyName,
+      agencyEmailPerson,
+      tenancyID,
+      tenantsName,
     },
   };
 
@@ -122,6 +166,14 @@ const sendF1SCFormEmails = async (req, res) => {
   });
 
   transporterE1SC.sendMail(AgencyEmail, (err, data) => {
+    if (err) {
+      console.log("There is an error here...!" + err);
+    } else {
+      console.log("Email sent!");
+    }
+  });
+
+  transporterRJ115.sendMail(pmEmailTwo, (err, data) => {
     if (err) {
       console.log("There is an error here...!" + err);
     } else {
@@ -255,6 +307,7 @@ const sendF1SCFormEmailsEn = async (req, res) => {
     rentAmount,
     rentStartDate,
     rentEndDate,
+    product,
     tenancyID,
     rentalAddress,
     room,
@@ -269,6 +322,14 @@ const sendF1SCFormEmailsEn = async (req, res) => {
   );
 
   const transporterE1SC = nodemailer.createTransport(
+    sgTransport({
+      auth: {
+        api_key: process.env.SENDGRID_API,
+      },
+    })
+  );
+
+  const transporterRJ115 = nodemailer.createTransport(
     sgTransport({
       auth: {
         api_key: process.env.SENDGRID_API,
@@ -294,8 +355,18 @@ const sendF1SCFormEmailsEn = async (req, res) => {
     viewPath: "views/",
   };
 
+  let optionsRJ115 = {
+    viewEngine: {
+      extname: ".handlebars",
+      layoutsDir: "views/",
+      defaultLayout: "rj115EmailEn",
+    },
+    viewPath: "views/",
+  };
+
   transporterE2TT.use("compile", hbs(optionsE2TT));
   transporterE1SC.use("compile", hbs(optionsE1SC));
+  transporterRJ115.use("compile", hbs(optionsRJ115));
 
   const TenantEmail = {
     from: "Rimbo info@rimbo.rent",
@@ -338,9 +409,35 @@ const sendF1SCFormEmailsEn = async (req, res) => {
       rentAmount,
       rentStartDate,
       rentEndDate,
+      product,
       tenancyID,
       rentalAddress,
       room,
+    },
+  };
+
+  // RJ115 Email  @PM/Agency to see screening result
+  const pmEmailTwo = {
+    from: "Rimbo info@rimbo.rent",
+    to: agencyEmailPerson, // pm's email
+    subject: `Screening results for tenant ${tenantsName}`,
+    attachments: [
+      {
+        filename: "rimbo-logo.png",
+        path: "./views/images/rimbo-logo.png",
+        cid: "rimbologo",
+      },
+      {
+        filename: "Screening_Certificate_Template_EN.pdf",
+        path: "./views/images/Screening_Certificate_Template_EN.pdf",
+      },
+    ],
+    template: "rj115EmailEn",
+    context: {
+      agencyName,
+      agencyEmailPerson,
+      tenancyID,
+      tenantsName,
     },
   };
 
@@ -353,6 +450,14 @@ const sendF1SCFormEmailsEn = async (req, res) => {
   });
 
   transporterE1SC.sendMail(AgencyEmail, (err, data) => {
+    if (err) {
+      console.log("There is an error here...!" + err);
+    } else {
+      console.log("Email sent!");
+    }
+  });
+
+  transporterRJ115.sendMail(pmEmailTwo, (err, data) => {
     if (err) {
       console.log("There is an error here...!" + err);
     } else {
