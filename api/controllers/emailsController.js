@@ -237,6 +237,12 @@ const sendF2SCFormEmails = async (req, res) => {
     to: tenantsEmail, // Tenant Email
     subject: `Bienvenido a ${agencyName} & Rimbo`,
     template: "E3TTEmail",
+    attachments: [
+      {
+        filename: "Reglas_Generales_y_Guia_Inquilino_Rimbo.pdf",
+        path: "./viewsEs/images/Reglas_Generales_y_Guia_Inquilino_Rimbo.pdf",
+      },
+    ],
     context: {
       tenantsName,
       tenantsEmail,
@@ -252,6 +258,12 @@ const sendF2SCFormEmails = async (req, res) => {
     to: agencyEmailPerson, // Agency Email
     subject: `${tenantsName} Tarjeta registrada correctamente`,
     template: "E3SCEmail",
+    attachments: [
+      {
+        filename: "Reglas_Generales_y_Guia_Propietario_RIMBO.pdf",
+        path: "./viewsEs/images/Reglas_Generales_y_Guia_Propietario_RIMBO.pdf",
+      },
+    ],
     context: {
       tenantsName,
       tenantsEmail,
@@ -521,6 +533,12 @@ const sendF2SCFormEmailsEn = async (req, res) => {
     to: tenantsEmail, // Tenant Email
     subject: `Welcome to ${agencyName} & Rimbo`,
     template: "E3TTEmailEn",
+    attachments: [
+      {
+        filename: "General_Rules_and_Guidelines_Tenant_Rimbo_ENGLISH.pdf",
+        path: "./views/images/General_Rules_and_Guidelines_Tenant_Rimbo_ENGLISH.pdf",
+      },
+    ],
     context: {
       tenantsName,
       tenantsEmail,
@@ -536,6 +554,12 @@ const sendF2SCFormEmailsEn = async (req, res) => {
     to: agencyEmailPerson, // Agency Email
     subject: `${tenantsName} Card successfully registered`,
     template: "E3SCEmailEn",
+    attachments: [
+      {
+        filename: "General_Rules_&_Guidelines_Landlord_RIMBO_ENGLISH.pdf",
+        path: "./views/images/General_Rules_&_Guidelines_Landlord_RIMBO_ENGLISH.pdf",
+      },
+    ],
     context: {
       tenantsName,
       tenantsEmail,
